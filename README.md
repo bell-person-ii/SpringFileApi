@@ -2,7 +2,7 @@
 
 # How To Use This?
 
-When Upload Image file
+### When Upload Image file
 
 1. Upload an image file through request body  (The Key's value should be "image" )
 2. When the Request was processed Successfully:
@@ -15,4 +15,4 @@ When Upload Image file
 
 
 
-when Download Image file
+### when Download Image file
