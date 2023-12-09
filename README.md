@@ -3,6 +3,8 @@
 # What is this?
 An API that receives and stores an image file from a client
 
+Base on SpringBoot3.0 & MySQL
+
 # How To Use This?
 
 ### When Upload Image file
