@@ -19,4 +19,4 @@
 
 ### when Download Image file
 1.  Request the image file through url [~~/fileSystem/{file_name.(extension)}]
-2. Then, if the image you request is Exist,  API Returns it Through ResponseBody! 
+2. If the image you request is Exist, API Returns it Through ResponseBody!
