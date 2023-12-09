@@ -18,9 +18,13 @@ public class FileData {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
+    @Column(name = "upload_name")
+    private String uploadName;
 
     private String type;
 
     private String filePath;
+
+    @Column(name = "save_name")
+    private String saveName;
 }

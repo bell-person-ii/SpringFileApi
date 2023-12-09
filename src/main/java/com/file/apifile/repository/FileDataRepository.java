@@ -20,10 +20,10 @@ public class FileDataRepository {
         em.persist(fileData);
     }
 
-    public FileData findOneByName(String name){
+    public FileData findOneByUploadName(String name){
 
         List<FileData> fileDataList
-                = em.createQuery("select fd from FileData  fd where fd.name =: name")
+                = em.createQuery("select fd from FileData  fd where fd.uploadName =: name")
                 .setParameter("name",name)
                 .getResultList();
 

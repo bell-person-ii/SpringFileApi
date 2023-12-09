@@ -23,8 +23,8 @@ public class FileDataController {
     @PostMapping("/fileSystem")
     public ResponseEntity<?> uploadImageToFileSystem(@RequestParam("image")MultipartFile file) throws IOException{
 
-        String uploadName = fileDataService.uploadImageToFileSystem(file);
-        return ResponseEntity.status(HttpStatus.OK).body(uploadName);
+        String resultMessage = fileDataService.uploadImageToFileSystem(file);
+        return ResponseEntity.status(HttpStatus.OK).body(resultMessage);
     }
 
     @GetMapping("/fileSystem/{fileName}")
