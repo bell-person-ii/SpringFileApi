@@ -1,5 +1,8 @@
 # # SpringFileApi
 
+# What is this?
+An API that receives and stores an image file from a client
+
 # How To Use This?
 
 ### When Upload Image file
